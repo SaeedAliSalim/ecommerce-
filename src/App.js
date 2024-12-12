@@ -1,6 +1,7 @@
 
 import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { BrowserRouter as Router, Route, Routes, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home.jsx'
 import Product from './Pages/Product.jsx'
